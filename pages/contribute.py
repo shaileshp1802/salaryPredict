@@ -16,4 +16,3 @@ if st.button("Submit"):
     to_add = pd.DataFrame(to_add)
     to_add.to_csv("./data/data.csv",mode="a",header=False,index=False)
     st.success("Submitted")
-
